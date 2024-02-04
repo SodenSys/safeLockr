@@ -1,0 +1,24 @@
+name: Run XUnit Tests on Push
+on:
+  push:
+    branches:
+        - unitTests
+        - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '6.x'
+
+    - name: Restore dependencies
+      run: dotnet restore safeLockr.tests/safeLockr.tests.csproj
+
+    - name: Run XUnit Tests
+      run: dotnet test safeLockr.tests/safeLockr.tests.csproj
