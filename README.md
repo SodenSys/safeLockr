@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="safeLockr1.png" alt="safeLockr">
+  <img src="safeLockr1.png" alt="safeLockr" width="500">
 </p>
-                                                  
+
 ## safeLockr
 ---
 safeLockr is a simple web API for encrypting and decrypting a single string of input. It does so by a combination of Caesar-cipher and randomization.
