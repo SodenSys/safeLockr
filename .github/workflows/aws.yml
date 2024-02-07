@@ -20,7 +20,10 @@ jobs:
           dotnet-version: '6.0'
 
       - name: Build project
-        run: dotnet restore; dotnet publish ./safeLockr/safeLockr.csproj -o safeLockr;
+        run: |
+          dotnet restore safeLockr/safeLockr.csproj
+          dotnet publish safeLockr/safeLockr.csproj -o safeLockr
+        
 
       - name: Create zip package
         run: cd safeLockr; zip ../safeLockr.zip *;
