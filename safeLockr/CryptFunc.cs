@@ -50,7 +50,7 @@ namespace safeLockr
 		}
 		public static char GetRandomSpecialCharacter()
 		{
-			string specialCharacters = "!@$%^*()-_+[]{}|;:'\",.<>/";
+			string specialCharacters = "!@$%^*()-_+;:,.";
 			Random random = new();
 			int randomIndex = random.Next(0, specialCharacters.Length);
 			return specialCharacters[randomIndex];
