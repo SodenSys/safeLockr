@@ -8,14 +8,13 @@
 
 ---
 
-<b>safeLockr</b> is a simple and concise web API for encrypting and decrypting a single string of input. It does so by a combination of Caesar-cipher and randomization. <b>safeLockr</b> ensures your information remains confidential and secure.
-
+**safeLockr** is a simple and concise web API for encrypting and decrypting a single string of input. It does so by a combination of Caesar-cipher and randomization. **safeLockr** ensures your information remains confidential and secure.
 
 <div align="center">
 
 # Local use
 
-#### 🔒 How to encrypt 🔒
+### 🔒 How to encrypt 🔒
 
 </div>
 
@@ -25,7 +24,8 @@
 - Open your localhost-URL, add /home after it, then click the top link to reach the encryption API.
 - Add the input you want to encrypt right after the '=' in the URL.
 
-#### 🔓 How to decrypt 🔓
+
+### 🔓 How to decrypt 🔓
 
 - Follow the first three steps above if you haven't already.
 - Open your localhost-URL, add /home after it, then click the bottom link to reach the decryption API.
@@ -36,7 +36,7 @@
 
 # Online use
 
-#### 🔒 How to encrypt/decrypt 🔓
+### 🔒 How to encrypt/decrypt 🔓
 
 </div>
 
@@ -48,7 +48,7 @@
 
 <div align="center">
 
-# 🛠️Testing🛠️
+### 🛠️Testing🛠️
 
 </div>
 
