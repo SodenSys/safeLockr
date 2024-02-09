@@ -24,8 +24,11 @@
 - Open your localhost-URL, add /home after it, then click the top link to reach the encryption API.
 - Add the input you want to encrypt right after the '=' in the URL.
 
+<div align="center">
 
 ### 🔓 How to decrypt 🔓
+
+</div>
 
 - Follow the first three steps above if you haven't already.
 - Open your localhost-URL, add /home after it, then click the bottom link to reach the decryption API.
