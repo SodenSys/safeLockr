@@ -1,9 +1,9 @@
-using safeLockr;
+﻿using safeLockr;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", async (HttpContext context) =>
+app.MapGet("/home", async (HttpContext context) =>
 {
 	context.Response.ContentType = "text/html";
 	await context.Response.WriteAsync("<body style='background-color: black; color: white;'>");
