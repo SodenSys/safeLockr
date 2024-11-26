@@ -8,7 +8,7 @@
 
 ---
 
-**safeLockr** is a simple and concise web API for encrypting and decrypting a single string of input. It does so by a combination of Caesar-cipher and randomization. **safeLockr** ensures your information remains confidential and secure.
+**safeLockr** is a super simple web API for encrypting and decrypting a single string of input. It does so by a combination of Caesar-cipher and randomization.
 
 <div align="center">
 
